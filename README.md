@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Hoang Gia!
+# 👋 Hi there
 
 Welcome to my GitHub profile! I'm a passionate **Information Security Engineer** of **HCMC University Industry and Trade (HUIT)** and a network enthusiast specializing in **CCNA**, **EVE-NG**, **GNS3**, and advanced **cybersecurity solutions**. Here's a bit about me:
 
