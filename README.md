@@ -27,7 +27,7 @@ A privacy-first mobile app that combines a tracker-blocking features.
 ### 📡 [Advanced Networking Labs](Incoming upload)
 A collection of practical networking labs for **CCNA**, including EVE-NG and GNS3 scenarios.
 
-### 💻 [DevOps Architect Intern](https://github.com/uziii2208/CyberSkill_exams)
+### 💻 [DevOps Architect Intern - (Vietnamese Only)](https://github.com/uziii2208/CyberSkill_exams)
 Socket programming solutions with secure communication techniques.
 
 ---
