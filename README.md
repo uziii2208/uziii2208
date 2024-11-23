@@ -21,8 +21,8 @@ Welcome to my GitHub profile! I'm a passionate **Information Security Engineer**
 ---
 
 ## 🚀 Featured Projects
-### 🔒 [Data Security App](Incoming upload)
-A privacy-first mobile app that combines a tracker-blocking features.
+### 🔒 [Web Scraping App](https://github.com/uziii2208/URL-Scraper)
+A privacy-first web-scraping app that combines a more features.
 
 ### 📡 [Advanced Networking Labs](Incoming upload)
 A collection of practical networking labs for **CCNA**, including EVE-NG and GNS3 scenarios.
