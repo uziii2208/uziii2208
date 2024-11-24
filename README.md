@@ -23,13 +23,13 @@ Welcome to my GitHub profile! I'm a passionate **Information Security Engineer**
 ## 🚀 Featured Projects
 
 ### 🌐 [Web Scraping App](https://github.com/uziii2208/URL-Scraper)
-My first web-scraping app, which combines multiple features.
+- My first web-scraping app : **[URLScraper](https://github.com/uziii2208/URL-Scraper)**, which combines multiple features.
 
 ### 📡 [Advanced Networking Labs](Incoming upload)
-A collection of practical networking labs for **CCNA**, including EVE-NG and GNS3 scenarios.
+- A collection of practical networking labs for **CCNA**, including EVE-NG and GNS3 scenarios.
 
-### 💻 [DevOps Architect Intern - (Vietnamese Only)](https://github.com/uziii2208/CyberSkill_exams)
-Socket programming solutions with secure communication techniques.
+### 💻 [DevOps Cloud Architect - (Vietnamese Only)](https://github.com/uziii2208/CyberSkill_exams)
+- Cloud architect with **[CyberSkill](https://github.com/cyberskill-world)** for outsourcing projects while helping me quickly adapt to data environments.
 
 ---
 
