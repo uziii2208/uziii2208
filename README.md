@@ -1,77 +1,34 @@
 # 👋 Hi there 👋
 
-Welcome to my GitHub profile! I'm a passionate **Information Security Engineer** of **HCMC University Industry and Trade (HUIT)** and a network enthusiast specializing in **CCNA**, **EVE-NG**, **GNS3**, and advanced **cybersecurity solutions**. Here's a bit about me:
+Welcome to my GitHub profile! I'm a passionate **Penetration Tester** with expertise in **networking**, **red team operations**, **reverse engineering**, **malware analysis**, and **DevOps**. I am also delving into **Docker Swarm**, **Kubernetes**, and **microservices** to build scalable and efficient infrastructures.
 
 ---
 
-## 🛠️ Skills & Expertise
-- **Networking:**
-  - Cisco (Router, Switch, Security)
-  - Fortigate, Palo Alto, Sophos
-  - CCNA Labs, EVE-NG, GNS3
-- **Programming:**
-  - React Native, C#, Python, Shell Scripting
-  - Building apps like **data security solutions**
-- **Tools:**
-  - Cisco Packet Tracer, FTK Imager, SNMP Monitoring, Wireshark
-- **PC Enthusiast:**
-  - Expertise in **CPU/GPU architecture** and **custom builds**
-  - Passionate about AMD, Nvidia, and Inno3D technologies
-
----
-
-## 🚀 Featured Projects
-
-### 🌐 [Web Scraping App](https://github.com/uziii2208/URL-Scraper)
-- My first web-scraping app : **[URLScraper](https://github.com/uziii2208/URL-Scraper)**, which combines multiple features.
-
-### 📡 [Advanced Networking Labs](Incoming upload)
-- A collection of practical networking labs for **CCNA**, including EVE-NG and GNS3 scenarios.
-
-### 💻 [DevOps Cloud Architect - (Vietnamese Only)](https://github.com/uziii2208/CyberSkill_exams)
-- Cloud architect with **[CyberSkill](https://github.com/cyberskill-world)** for outsourcing projects while helping me quickly adapt to data environments.
-
----
-
-## 🌱 Currently Working On
-- Developing **web data security solutions** using more **forensic tools** and **API Scrapping tools**.
-- Automating **network configuration** and **monitoring tools**.
-- Researching advanced **firewall configurations** and **OSSIM, IPS/IDS solutions**.
-
----
-
-# Contact
-```
-Feel free to contact me if you have any questions or suggestions.
-```
+## 📊 GitHub Stats
 <div align="center">
-<p>
-  <img src="https://github.com/user-attachments/assets/72d9c8f7-cda9-431b-8e85-5c803f1d3dd4" width="32" alt="Facebook Icon"/>
-   <a href="https://www.facebook.com/corbierevn" style="text-decoration: none; font-size: 14px;">
-    Contact via Facebook
-  <img src="https://github.com/user-attachments/assets/72d9c8f7-cda9-431b-8e85-5c803f1d3dd4" width="32" alt="Facebook Icon"/>
-  </a>
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=uziii2208&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uziii2208&layout=compact&theme=radical" alt="Top Languages"/>
+</div>
 
-<p>
-  <img src="https://github.com/user-attachments/assets/613287bd-8296-45d7-840b-f2763691fe48" width="32" alt="Discord Icon"/>
-   <a href="https://discord.com/users/863239313268670486" style="text-decoration: none; font-size: 14px;">
-    Contact via Discord
-  <img src="https://github.com/user-attachments/assets/613287bd-8296-45d7-840b-f2763691fe48" width="32" alt="Discord Icon"/>
-  </a>
-</p>
+---
 
-<p>
-  <img src="https://github.com/user-attachments/assets/27cea862-2a59-42a1-86e4-9e5ffb6f504f" width="32" alt="Steam Icon"/>
-   <a href="https://steamcommunity.com/id/corbiere" style="text-decoration: none; font-size: 14px;">
-    Contact via Steam
-  <img src="https://github.com/user-attachments/assets/27cea862-2a59-42a1-86e4-9e5ffb6f504f" width="32" alt="Steam Icon"/>
-  </a>
-</p>
+## 🌐 Socials
+<div align="center">
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![HackerOne](https://img.shields.io/badge/HackerOne-211F1F?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com)
+[![BugCrowd](https://img.shields.io/badge/BugCrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white)](https://bugcrowd.com)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/863239313268670486)
+[![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/)
+[![CodeForces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com)
+[![Hacker101](https://img.shields.io/badge/Hacker101-000000?style=for-the-badge&logo=hackthebox&logoColor=white)](https://www.hacker101.com)
+
 </div>
 
 ---
 
 <div align="center">
-<h2>Thanks for visiting my profile! 🚀</h2>
+  <h2>If you want to connect, just dm to my Discord. Your welcome!!! 🚀</h2>
 </div>
