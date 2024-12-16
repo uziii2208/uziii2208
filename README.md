@@ -26,20 +26,29 @@ I'm a passionate **Penetration Tester** and a dedicated learner in **DevOps** te
 
 <div align="center">
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![HackerOne](https://img.shields.io/badge/HackerOne-211F1F?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com)
-[![BugCrowd](https://img.shields.io/badge/BugCrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white)](https://bugcrowd.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/863239313268670486)
-[![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/)
-[![CodeForces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com)
-[![Hacker101](https://img.shields.io/badge/Hacker101-000000?style=for-the-badge&logo=hackthebox&logoColor=white)](https://www.hacker101.com)
+[<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="32" alt="Facebook"/>](https://www.facebook.com)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn"/>](https://linkedin.com)
+[<img src="https://img.shields.io/badge/HackerOne-211F1F?style=for-the-badge&logo=hackerone&logoColor=white" height="32" alt="HackerOne"/>](https://hackerone.com)
+[<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" height="32" alt="Telegram"/>](https://t.me)
+[<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="32" alt="Discord"/>](https://discord.com/users/863239313268670486)
+[<img src="https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white" height="32" alt="Udemy"/>](https://www.udemy.com/)
+[<img src="https://img.shields.io/badge/Cisco_Networking-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" height="32" alt="CiscoNetworking"/>](https://www.cisco.com/)
+[<img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="32" alt="CodeForces"/>](https://codeforces.com)
+[<img src="https://img.shields.io/badge/Hacker101-000000?style=for-the-badge&logo=hackthebox&logoColor=white" height="32" alt="Hacker101"/>](https://www.hacker101.com)
+[<img src="https://img.shields.io/badge/BugCrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white" height="32" alt="BugCrowd"/>](https://bugcrowd.com)
+[<img src="https://img.shields.io/badge/TryHackMe-CC2927?style=for-the-badge&logo=tryhackme&logoColor=white" height="32" alt="TryHackMe"/>](https://tryhackme.com)
+[<img src="https://img.shields.io/badge/HackTheBox-111111?style=for-the-badge&logo=hackthebox&logoColor=white" height="32" alt="HackTheBox"/>](https://www.hackthebox.com)
+[<img src="https://img.shields.io/badge/Immunefi-353535?style=for-the-badge&logo=immunefi&logoColor=white" height="32" alt="Immunefi"/>](https://immunefi.com)
+[<img src="https://img.shields.io/badge/Wordfence-21759B?style=for-the-badge&logo=wordpress&logoColor=white" height="32" alt="Wordfence"/>](https://www.wordfence.com)
+[<img src="https://img.shields.io/badge/Apple_Security-333333?style=for-the-badge&logo=apple&logoColor=white" height="32" alt="AppleSecurity"/>](https://developer.apple.com/security/)
+[<img src="https://img.shields.io/badge/CTFtime-03224C?style=for-the-badge&logo=ctftime&logoColor=white" height="32" alt="CTFtime"/>](https://ctftime.org)
+[<img src="https://img.shields.io/badge/Packet_Storm_Security-252525?style=for-the-badge&logo=security&logoColor=white" height="32" alt="PacketStormSecurity"/>](https://packetstormsecurity.com)
 
 </div>
 
 ---
 
 <div align="center">
-  <h2>If you want to connect, just dm to my Discord. Your welcome!!!</h2>
+  <h2>If you want to connect, just DM me on Discord. You're welcome!!!</h2>
 </div>
+
