@@ -15,16 +15,17 @@ A cybersecurity enthusiast focused on **Adversary Simulation**, **Malware Analys
 ---
 
 <div align="center">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/uziii2208.png" alt="THM Profile Badge" />
+  <img src="https://www.hackthebox.eu/badge/image/2125051" alt="HTB Profile Badge" width="300"/>
   <img src="https://github-readme-stats.vercel.app/api?username=uziii2208&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <img src="https://tryhackme-badges.s3.amazonaws.com/uziii2208.png" alt="Your Image Badge" />
 </div>
 
 ---
 
 <div align="center">
   
-[<img src="https://img.shields.io/badge/HackTheBox-111111?style=for-the-badge&logo=hackthebox&logoColor=green" height="32" alt="HackTheBox"/>](https://www.hackthebox.com/)
-[<img src="https://img.shields.io/badge/TryHackMe-CC2927?style=for-the-badge&logo=tryhackme&logoColor=white" height="32"/>](https://tryhackme.com)
+[<img src="https://img.shields.io/badge/HackTheBox-111111?style=for-the-badge&logo=hackthebox&logoColor=green" height="32" alt="HackTheBox"/>](https://app.hackthebox.com/profile/2125051)
+[<img src="https://img.shields.io/badge/TryHackMe-CC2927?style=for-the-badge&logo=tryhackme&logoColor=white" height="32"/>](https://tryhackme.com/p/uziii2208)
 [<img src="https://img.shields.io/badge/HackerOne-211F1F?style=for-the-badge&logo=hackerone&logoColor=white" height="32" alt="HackerOne"/>](https://hackerone.com)
 [<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="32" alt="Discord"/>](https://discord.com/users/863239313268670486)
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" height="32" alt="Telegram"/>](https://t.me)
