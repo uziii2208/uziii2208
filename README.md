@@ -2,18 +2,6 @@ A cybersecurity enthusiast focused on **Adversary Simulation**, **Malware Analys
 
 ---
 
-| **Domain**                | **Key Skills & Tools**                                                                 |
-|--------------------------|----------------------------------------------------------------------------------------|
-| **Red Teaming**          | Simulating **Advanced Persistent Threats (APTs)**, evasion techniques, C2 frameworks. |
-| **Malware Development**  | Binary obfuscation, in-memory execution, and reverse engineering of malicious code.  |
-| **Reverse Engineering**  | Tools: **Ghidra**, **IDA Pro**, **Radare2** – dissect and analyze executables.        |
-| **SOC & Threat Hunting** | TTP emulation using **MITRE ATT&CK**, threat intel correlation.                       |
-| **DevSecOps**            | Secure CI/CD with **GitHub Actions**, **Terraform**, **Ansible**, and **SaaC**.      |
-| **Container Security**   | Hardening Kubernetes & Docker environments with policy enforcement & audit logging.   |
-| **Networking**           | Deep packet analysis with **Wireshark**, **GNS3** for emulated testing.               |
-
----
-
 <div align="center">
   <img src="https://tryhackme-badges.s3.amazonaws.com/uziii2208.png" alt="THM Profile Badge" />
   <img src="https://www.hackthebox.eu/badge/image/2125051" alt="HTB Profile Badge" width="300"/>
