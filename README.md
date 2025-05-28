@@ -1,6 +1,6 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=A90F0F&height=80&section=header"/>
-  <img width="420" src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=A90F0F&center=true&vCenter=true&width=420&lines=RED+TEAM+OPERATOR;MALWARE+ANALYST;ADVERSARY+SIMULATION" alt="Header"/>
+  <img width="420" src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=A90F0F&center=true&vCenter=true&width=420&lines=WELCOME+TO+MY+GITHUB;NICE+TO+SEE+YOU+HERE;LETS+HACK+THE+PLANET+!!!" alt="Header"/>
 </div>
 
 <div align="center">
@@ -17,10 +17,10 @@
 
 ```text
 🔸 Advanced Persistence Techniques    █████████████████░░░   85%
-🔸 Malware Analysis & RE             ████████████████░░░░   80%
-🔸 Exploit Development              ███████████████░░░░░░   75%
-🔸 Network Infrastructure Attack    ██████████████████░░░   85%
-🔸 OSINT & Social Engineering      ████████████████░░░░░   80%
+🔸 Malware Analysis & RE              ████████████████░░░░   80%
+🔸 Exploit Development                ███████████████░░░░░░   75%
+🔸 Network Infrastructure Attack      ██████████████████░░░   85%
+🔸 OSINT & Social Engineering         ████████████████░░░░░   80%
 ```
 
 ### 💫 Statistics & Metrics
