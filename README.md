@@ -41,22 +41,54 @@
   </div>
 
   ### Connect & Follow
-  <div align="center">
-    <a href="https://app.hackthebox.com"><img src="https://img.shields.io/badge/-HackTheBox-%23111927?style=flat-square&logo=hackthebox&logoColor=9FEF00"/></a>
-    <a href="https://tryhackme.com"><img src="https://img.shields.io/badge/-TryHackMe-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/></a>
-    <a href="https://hackerone.com"><img src="https://img.shields.io/badge/-HackerOne-%23494649?style=flat-square&logo=hackerone&logoColor=white"/></a>
-    <a href="https://bugcrowd.com"><img src="https://img.shields.io/badge/-Bugcrowd-%23F26822?style=flat-square&logo=bugcrowd&logoColor=white"/></a>
-    <a href="https://app.intigriti.com"><img src="https://img.shields.io/badge/-Intigriti-%23161A36?style=flat-square&logo=intigriti&logoColor=white"/></a>
-    <br/>
-    <a href="https://discord.com/users/863239313268670486"><img src="https://img.shields.io/badge/-Discord-%235865F2?style=flat-square&logo=discord&logoColor=white"/></a>
-    <a href="https://t.me"><img src="https://img.shields.io/badge/-Telegram-%2326A5E4?style=flat-square&logo=telegram&logoColor=white"/></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-%230A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-    <a href="https://medium.com"><img src="https://img.shields.io/badge/-Medium-%2300AB6C?style=flat-square&logo=medium&logoColor=white"/></a>
-    <a href="https://infosec.exchange"><img src="https://img.shields.io/badge/-Mastodon-%232B90D9?style=flat-square&logo=mastodon&logoColor=white"/></a>
-  </div>
+<div align="center">
+  <a href="https://app.hackthebox.com"><img src="https://img.shields.io/badge/-HackTheBox-%23111927?style=flat-square&logo=hackthebox&logoColor=9FEF00"/></a>
+  <a href="https://tryhackme.com"><img src="https://img.shields.io/badge/-TryHackMe-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/></a>
+  <a href="https://hackerone.com"><img src="https://img.shields.io/badge/-HackerOne-%23494649?style=flat-square&logo=hackerone&logoColor=white"/></a>
+  <a href="https://bugcrowd.com"><img src="https://img.shields.io/badge/-Bugcrowd-%23F26822?style=flat-square&logo=bugcrowd&logoColor=white"/></a>
+  <a href="https://app.intigriti.com"><img src="https://img.shields.io/badge/-Intigriti-%23161A36?style=flat-square&logo=intigriti&logoColor=white"/></a>
+  <a href="https://sinister.ly"><img src="https://img.shields.io/badge/-Sinister.ly-%23000000?style=flat-square&logo=sinisterly&logoColor=red"/></a>
+  <a href="http://breachforums.st"><img src="https://img.shields.io/badge/-BreachForums-%23000000?style=flat-square&logo=tor&logoColor=red"/></a>
+  <a href="http://darknetarmy.onion"><img src="https://img.shields.io/badge/-DarkNetArmy-%231C2526?style=flat-square&logo=tor&logoColor=white"/></a>
+  <a href="http://xss.is"><img src="https://img.shields.io/badge/-XSS-%23000000?style=flat-square&logo=xss&logoColor=white"/></a>
+  <a href="http://leakbase.io"><img src="https://img.shields.io/badge/-LeakBase-%234B0082?style=flat-square&logo=leakbase&logoColor=white"/></a>
+  <a href="http://dread.onion"><img src="https://img.shields.io/badge/-Dread-%23000000?style=flat-square&logo=tor&logoColor=white"/></a>
+  <a href="http://darkforums.onion"><img src="https://img.shields.io/badge/-DarkForums-%231C2526?style=flat-square&logo=tor&logoColor=white"/></a>
+  <a href="https://discord.com/users/863239313268670486"><img src="https://img.shields.io/badge/-Discord-%235865F2?style=flat-square&logo=discord&logoColor=white"/></a>
+  <a href="https://t.me"><img src="https://img.shields.io/badge/-Telegram-%2326A5E4?style=flat-square&logo=telegram&logoColor=white"/></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-%230A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://medium.com"><img src="https://img.shields.io/badge/-Medium-%2300AB6C?style=flat-square&logo=medium&logoColor=white"/></a>
+  <a href="https://infosec.exchange"><img src="https://img.shields.io/badge/-Mastodon-%232B90D9?style=flat-square&logo=mastodon&logoColor=white"/></a>
+  <a href="https://www.reddit.com/r/cybersecurity"><img src="https://img.shields.io/badge/-Reddit_Cybersecurity-%23FF4500?style=flat-square&logo=reddit&logoColor=white"/></a>
+  <a href="https://www.reddit.com/r/netsec"><img src="https://img.shields.io/badge/-Reddit_Netsec-%23FF4500?style=flat-square&logo=reddit&logoColor=white"/></a>
+  <a href="https://www.reddit.com/r/hacking"><img src="https://img.shields.io/badge/-Reddit_Hacking-%23FF4500?style=flat-square&logo=reddit&logoColor=white"/></a>
+  <a href="https://x.com"><img src="https://img.shields.io/badge/-X-%23000000?style=flat-square&logo=x&logoColor=white"/></a>
+  <a href="https://www.defcon.org"><img src="https://img.shields.io/badge/-DEFCON-%23000000?style=flat-square&logo=defcon&logoColor=red"/></a>
+  <a href="https://www.blackhat.com"><img src="https://img.shields.io/badge/-Black_Hat-%23000000?style=flat-square&logo=blackhat&logoColor=white"/></a>
+  <a href="https://www.sans.org"><img src="https://img.shields.io/badge/-SANS-%23006699?style=flat-square&logo=sans&logoColor=1E90FF"/></a>
+  <a href="https://owasp.org"><img src="https://img.shields.io/badge/-OWASP-%23002E63?style=flat-square&logo=owasp&logoColor=white"/></a>
+  <a href="https://www.offensive-security.com"><img src="https://img.shields.io/badge/-Offensive_Security-%23D12121?style=flat-square&logo=offensive-security&logoColor=white"/></a>
+  <a href="https://ctftime.org"><img src="https://img.shields.io/badge/-CTFtime-%23FF0000?style=flat-square&logo=ctftime&logoColor=white"/></a>
+  <a href="https://overthewire.org"><img src="https://img.shields.io/badge/-OverTheWire-%232F4F4F?style=flat-square&logo=overthewire&logoColor=white"/></a>
+  <a href="https://picoctf.org"><img src="https://img.shields.io/badge/-picoCTF-%231E90FF?style=flat-square&logo=picoctf&logoColor=white"/></a>
+  <a href="https://www.vulnhub.com"><img src="https://img.shields.io/badge/-VulnHub-%234B0082?style=flat-square&logo=vulnhub&logoColor=white"/></a>
+  <a href="https://www.hackerearth.com/challenges/hackathon/cybersecurity"><img src="https://img.shields.io/badge/-HackerEarth-%232C3454?style=flat-square&logo=hackerearth&logoColor=white"/></a>
+  <a href="https://www.hackerrank.com/domains/security"><img src="https://img.shields.io/badge/-HackerRank-%232EC866?style=flat-square&logo=hackerrank&logoColor=white"/></a>
+  <a href="https://www.root-me.org"><img src="https://img.shields.io/badge/-Root_Me-%23008000?style=flat-square&logo=root-me&logoColor=white"/></a>
+  <a href="https://www.synack.com"><img src="https://img.shields.io/badge/-Synack-%23FF0000?style=flat-square&logo=synack&logoColor=white"/></a>
+  <a href="https://yeswehack.com"><img src="https://img.shields.io/badge/-YesWeHack-%23002D72?style=flat-square&logo=yeswehack&logoColor=white"/></a>
+  <a href="https://www.hacktivitycon.com"><img src="https://img.shields.io/badge/-HacktivityCon-%23494649?style=flat-square&logo=hackerone&logoColor=white"/></a>
+  <a href="https://www.bsidessf.org"><img src="https://img.shields.io/badge/-BSidesSF-%23FF4500?style=flat-square&logo=bsides&logoColor=white"/></a>
+  <a href="https://shmoocon.org"><img src="https://img.shields.io/badge/-ShmooCon-%23000000?style=flat-square&logo=shmoocon&logoColor=red"/></a>
+  <a href="https://www.securitybsides.com"><img src="https://img.shields.io/badge/-BSides-%23FF4500?style=flat-square&logo=bsides&logoColor=white"/></a>
+  <a href="http://cracked.to"><img src="https://img.shields.io/badge/-Cracked.to-%23000000?style=flat-square&logo=cracked&logoColor=white"/></a>
+  <a href="http://exploit.in"><img src="https://img.shields.io/badge/-Exploit.in-%23000000?style=flat-square&logo=exploit&logoColor=white"/></a>
+  <a href="http://cryptbb.onion"><img src="https://img.shields.io/badge/-CryptBB-%234B0082?style=flat-square&logo=tor&logoColor=white"/></a>
+  <a href="http://torhiddenwiki.onion"><img src="https://img.shields.io/badge/-Hidden_Wiki-%23000000?style=flat-square&logo=tor&logoColor=white"/></a>
+</div>
 
   ### Arsenal & Tools
-  <div align="center">
+<div align="center">
 
   ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
   ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -78,8 +110,35 @@
   ![PowerSploit](https://img.shields.io/badge/PowerSploit-2671BE?style=flat-square&logo=powershell&logoColor=white)
   ![Rubeus](https://img.shields.io/badge/Rubeus-DD1100?style=flat-square&logo=windows&logoColor=white)
   ![AMSI Bypass](https://img.shields.io/badge/AMSI_Bypass-4B0082?style=flat-square&logo=windows&logoColor=white)
+  ![Metasploit](https://img.shields.io/badge/Metasploit-FF0000?style=flat-square&logo=metasploit&logoColor=white)
+  ![Burp Suite](https://img.shields.io/badge/Burp_Suite-F28C38?style=flat-square&logo=burp-suite&logoColor=white)
+  ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+  ![John the Ripper](https://img.shields.io/badge/John_the_Ripper-000000?style=flat-square&logo=hashcat&logoColor=white)
+  ![Hashcat](https://img.shields.io/badge/Hashcat-8B008B?style=flat-square&logo=hashcat&logoColor=white)
+  ![Aircrack-ng](https://img.shields.io/badge/Aircrack--ng-00CED1?style=flat-square&logo=aircrack-ng&logoColor=white)
+  ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white)
+  ![SQLMap](https://img.shields.io/badge/SQLMap-FF4500?style=flat-square&logo=sql&logoColor=white)
+  ![Hydra](https://img.shields.io/badge/Hydra-2F4F4F?style=flat-square&logo=hydra&logoColor=white)
+  ![Impacket](https://img.shields.io/badge/Impacket-4682B4?style=flat-square&logo=python&logoColor=white)
+  ![Ghidra](https://img.shields.io/badge/Ghidra-006400?style=flat-square&logo=ghidra&logoColor=white)
+  ![Radare2](https://img.shields.io/badge/Radare2-800080?style=flat-square&logo=radare2&logoColor=white)
+  ![CrackMapExec](https://img.shields.io/badge/CrackMapExec-FF8C00?style=flat-square&logo=python&logoColor=white)
+  ![Proxychains](https://img.shields.io/badge/Proxychains-000000?style=flat-square&logo=proxychains&logoColor=white)
+  ![Tor](https://img.shields.io/badge/Tor-7D4698?style=flat-square&logo=tor&logoColor=white)
+  ![Recon-ng](https://img.shields.io/badge/Recon--ng-4682B4?style=flat-square&logo=python&logoColor=white)
+  ![Maltego](https://img.shields.io/badge/Maltego-0066CC?style=flat-square&logo=maltego&logoColor=white)
+  ![Shodan](https://img.shields.io/badge/Shodan-1C2526?style=flat-square&logo=shodan&logoColor=white)
+  ![Masscan](https://img.shields.io/badge/Masscan-FF4500?style=flat-square&logo=network&logoColor=white)
+  ![ZAP](https://img.shields.io/badge/ZAP-F28C38?style=flat-square&logo=owasp&logoColor=white)
+  ![Cain & Abel](https://img.shields.io/badge/Cain_%26_Abel-4682B4?style=flat-square&logo=windows&logoColor=white)
+  ![Kismet](https://img.shields.io/badge/Kismet-00CED1?style=flat-square&logo=kismet&logoColor=white)
+  ![Netcat](https://img.shields.io/badge/Netcat-000000?style=flat-square&logo=netcat&logoColor=white)
+  ![Pupy](https://img.shields.io/badge/Pupy-800080?style=flat-square&logo=python&logoColor=white)
+  ![Bettercap](https://img.shields.io/badge/Bettercap-00FF00?style=flat-square&logo=bettercap&logoColor=black)
+  ![Sysinternals](https://img.shields.io/badge/Sysinternals-0078D6?style=flat-square&logo=windows&logoColor=white)
+  ![ Volatility](https://img.shields.io/badge/Volatility-4B0082?style=flat-square&logo=python&logoColor=white)
 
-  </div>
+</div>
 
   <div align="center">
     <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=A90F0F&height=120&section=footer"/>
