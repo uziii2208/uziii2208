@@ -42,8 +42,8 @@
 
   ### Connect & Follow
   <div align="center">
-    <a href="https://app.hackthebox.com/profile/2125051"><img src="https://img.shields.io/badge/-HackTheBox-%23111927?style=flat-square&logo=hackthebox&logoColor=9FEF00"/></a>
-    <a href="https://tryhackme.com/p/uziii2208"><img src="https://img.shields.io/badge/-TryHackMe-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/></a>
+    <a href="https://app.hackthebox.com"><img src="https://img.shields.io/badge/-HackTheBox-%23111927?style=flat-square&logo=hackthebox&logoColor=9FEF00"/></a>
+    <a href="https://tryhackme.com"><img src="https://img.shields.io/badge/-TryHackMe-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/></a>
     <a href="https://hackerone.com"><img src="https://img.shields.io/badge/-HackerOne-%23494649?style=flat-square&logo=hackerone&logoColor=white"/></a>
     <a href="https://bugcrowd.com"><img src="https://img.shields.io/badge/-Bugcrowd-%23F26822?style=flat-square&logo=bugcrowd&logoColor=white"/></a>
     <a href="https://app.intigriti.com"><img src="https://img.shields.io/badge/-Intigriti-%23161A36?style=flat-square&logo=intigriti&logoColor=white"/></a>
