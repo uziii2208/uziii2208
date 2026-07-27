@@ -83,14 +83,7 @@ root@uziii2208:~$ cat mission.txt
 
 <br>
 
-## Stats
 
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=uziii2208&show_icons=true&hide_border=true&bg_color=00000000&icon_color=C9C9C9&title_color=FFFFFF&text_color=C9C9C9"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=uziii2208&hide_border=true&background=00000000&stroke=C9C9C9&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=C9C9C9&dates=808080"/>
-</p>
-
-<!-- 🐍 Contribution snake — cần thêm snake.yml vào .github/workflows/, xem hướng dẫn kèm theo -->
 <p align="center">
 <img src="https://raw.githubusercontent.com/uziii2208/uziii2208/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%"/>
 </p>
