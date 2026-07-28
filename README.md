@@ -22,9 +22,10 @@
 
 | Advisory / CVE | Product | Vulnerability & Weakness | Severity | Status |
 |---|---|---|---|---|
-| [GHSA-5gf4-53wc-3fgw](waiting) | _Pending_ | _CWE-xx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
-| [GHSA-q5j5-qp67-65vf](waiting) | _Pending_ | _CWE-xxx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
-| [GHSA-rmm7-wqw2-jwc6](waiting) | _Pending_ | _CWE-xxx & CWE-XXX & CWE-XXX_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
+| [GHSA-79x2-993q-xvjq](https://github.com/sensored/sensored/security/advisories/GHSA-79x2-993q-xvjq) | _Pending_ | _CWE-xx & CWE-xxx & CWE-xxx & CWE-xxx_ | ![Critical](https://img.shields.io/badge/-CRITICAL-333333?style=flat-square) | _Triage_ |
+| [GHSA-5gf4-53wc-3fgw](https://github.com/sensored/sensored/security/advisories/GHSA-5gf4-53wc-3fgw) | _Pending_ | _CWE-xx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Triage_ |
+| [GHSA-q5j5-qp67-65vf](https://github.com/sensored/sensored/security/advisories/GHSA-q5j5-qp67-65vf) | _Pending_ | _CWE-xxx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Triage_ |
+| [GHSA-rmm7-wqw2-jwc6](https://github.com/sensored/sensored/security/advisories/GHSA-rmm7-wqw2-jwc6) | _Pending_ | _CWE-xxx & CWE-XXX & CWE-XXX_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Triage_ |
 
 <br>
 
