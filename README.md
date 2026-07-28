@@ -24,7 +24,7 @@
 |---|---|---|---|---|
 | [GHSA-5gf4-53wc-3fgw](waiting) | _Pending_ | _CWE-xx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
 | [GHSA-q5j5-qp67-65vf](waiting) | _Pending_ | _CWE-xxx & CWE-xxx_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
-| [GHSA-rmm7-wqw2-jwc6](waiting) | _Pending_ | _CWE-xxx_ | ![Low](https://img.shields.io/badge/-LOW-999999?style=flat-square) | _Pending_ |
+| [GHSA-rmm7-wqw2-jwc6](waiting) | _Pending_ | _CWE-xxx & CWE-XXX & CWE-XXX_ | ![High](https://img.shields.io/badge/-HIGH-333333?style=flat-square) | _Pending_ |
 
 <br>
 
