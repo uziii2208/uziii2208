@@ -23,8 +23,6 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=900&color=C9C9C9&center=true&vCenter=true&width=620&lines=Security+Researcher+%7C+Vulnerability+Hunter;Breaking+things+to+build+stronger+defenses;Chasing+CVEs+one+bug+at+a+time" alt="typing banner" />
-
 ![Profile views](https://komarev.com/ghpvc/?username=uziii2208&color=000000&style=for-the-badge&label=TRANSMISSIONS+RECEIVED)
 
 <picture>

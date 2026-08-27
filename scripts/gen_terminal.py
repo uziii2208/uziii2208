@@ -167,7 +167,7 @@ def fetch_panel(terminal, stats, year):
         "%s uziii2208@GitHub %s" % (BANNER, RESET),
         "--------------",
         field("OS:", "Kali Linux, Ubuntu 22.04"),
-        field("Host:", "Hyperdope AI"),
+        field("Host:", "Hyperdope AI | HowToPwn"),
         field("Kernel:", "0day Vulnerability Research"),
         field("Role:", "Security Researcher | Chasing CVEs"),
         field("Shell:", "zsh"),
