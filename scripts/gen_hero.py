@@ -17,8 +17,8 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#A78BFA"
-LIGHT_PURPLE = "#7C3AED"
+DARK_PURPLE = "#444446"
+LIGHT_PURPLE = "#EEEEEE"
 
 FRAME_COUNT = 60
 LOOP_SECONDS = 6.0
