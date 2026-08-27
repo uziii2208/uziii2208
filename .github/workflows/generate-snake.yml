@@ -30,13 +30,12 @@ jobs:
           path: dist/streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate snake
-        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+      - name: Generate snake SVG (grayscale palette)
+        uses: Platane/snk@v3 # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#7C3AED
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#1E1E2E,#3B2A5E,#6247AA,#8B5FD9,#A78BFA
+            dist/github-contribution-grid-snake.svg?color_snake=%23ffffff&color_dots=%230d0d0d,%23333333,%23666666,%23999999,%23ffffff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
