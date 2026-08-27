@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the profile hero assets from the ASCII sources in assets/.
 
-Port of the browser renderer at syamxm.com/js/ascii3d.js so the README and the
+Port of the browser renderer at uziii2208.com/js/ascii3d.js so the README and the
 site are generated from the same model. Standard library only.
 
     python3 scripts/gen_hero.py
@@ -17,8 +17,8 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#FFFFFF"
-LIGHT_PURPLE = "#FFFFFF"
+DARK_PURPLE = "#A78BFA"
+LIGHT_PURPLE = "#7C3AED"
 
 FRAME_COUNT = 60
 LOOP_SECONDS = 6.0
@@ -39,11 +39,11 @@ FONT_SIZE = 10.0
 CHAR_WIDTH = 6.0
 LINE_HEIGHT = 10.0
 TICKER_MESSAGES = [
-    "security researcher",
-    "vulnerability hunter",
-    "chasing CVEs one bug at a time",
-    "white hat · open source",
-    "Hyperdope AI",
+    "devsecops",
+    "devops intern — 7 sep 2026 to 5 mar 2027",
+    "uitm shah alam · final year computer science (hons)",
+    "self-hosts everything, no open inbound ports",
+    "open to freelance work",
 ]
 
 TICKER_WIDTH = 900
@@ -51,11 +51,11 @@ TICKER_HEIGHT = 46
 TICKER_FONT_SIZE = 22.0
 TICKER_ADVANCE = 13.2
 TICKER_SEPARATOR = "  •  "
-TICKER_INK = "#FFFFFF"
-TICKER_GROUND = "#000000"
-TICKER_EDGE = "#333333"
-TICKER_MID = "#AAAAAA"
-TICKER_BLOOM = "#FFFFFF"
+TICKER_INK = "#EDE6FF"
+TICKER_GROUND = "#050409"
+TICKER_EDGE = "#2A2440"
+TICKER_MID = "#D6C4FF"
+TICKER_BLOOM = "#7C3AED"
 DOT_PITCH = 3.0
 DOT_RADIUS = 0.8
 FADE_WIDTH = 38
@@ -491,8 +491,8 @@ def main():
 
     write("hero-dark.svg", build_spinner(model, DARK_PURPLE, "uziii2208 logo, rotating"))
     write("hero-light.svg", build_spinner(model, LIGHT_PURPLE, "uziii2208 logo, rotating"))
-    write("wordmark-dark.svg", build_wordmark(wordmark, DARK_PURPLE, "UZIII2208"))
-    write("wordmark-light.svg", build_wordmark(wordmark, LIGHT_PURPLE, "UZIII2208"))
+    write("wordmark-dark.svg", build_wordmark(wordmark, DARK_PURPLE, "uziii2208"))
+    write("wordmark-light.svg", build_wordmark(wordmark, LIGHT_PURPLE, "uziii2208"))
     write("ticker.svg", build_ticker(TICKER_MESSAGES, "status ticker"))
 
 
