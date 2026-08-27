@@ -17,7 +17,7 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#444446"
+DARK_PURPLE = "#9E9E9E"
 LIGHT_PURPLE = "#EEEEEE"
 
 FRAME_COUNT = 60
@@ -39,11 +39,10 @@ FONT_SIZE = 10.0
 CHAR_WIDTH = 6.0
 LINE_HEIGHT = 10.0
 TICKER_MESSAGES = [
-    "devsecops",
-    "devops intern — 7 sep 2026 to 5 mar 2027",
-    "uitm shah alam · final year computer science (hons)",
-    "self-hosts everything, no open inbound ports",
-    "open to freelance work",
+    "security researcher",
+    "vulnerability hunter",
+    "chasing CVEs one bug at a time · white hat",
+    "open source",
 ]
 
 TICKER_WIDTH = 900
@@ -51,11 +50,11 @@ TICKER_HEIGHT = 46
 TICKER_FONT_SIZE = 22.0
 TICKER_ADVANCE = 13.2
 TICKER_SEPARATOR = "  •  "
-TICKER_INK = "#EDE6FF"
+TICKER_INK = "#FFFFFF"
 TICKER_GROUND = "#050409"
 TICKER_EDGE = "#2A2440"
-TICKER_MID = "#D6C4FF"
-TICKER_BLOOM = "#7C3AED"
+TICKER_MID = "#F3F3F3"
+TICKER_BLOOM = "#F7F7F8"
 DOT_PITCH = 3.0
 DOT_RADIUS = 0.8
 FADE_WIDTH = 38

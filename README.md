@@ -17,7 +17,7 @@
 
 </div>
 
-<img alt="security researcher  •  vulnerability hunter  •  chasing CVEs one bug at a time  •  white hat · open source  •  Hyperdope AI" src="assets/ticker.svg" width="100%">
+<img alt="security researcher  •  vulnerability hunter  •  chasing CVEs one bug at a time  •  white hat · open source" src="assets/ticker.svg" width="100%">
 
 <img alt="terminal boot sequence: BIOS memory test, boot, login, fastfetch, and CVE statistics" src="https://raw.githubusercontent.com/uziii2208/uziii2208/output/terminal.gif" width="100%">
 
