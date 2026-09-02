@@ -33,8 +33,8 @@ CACHYOS_LOGO_SOURCE = os.path.join(REPO_ROOT, "assets", "cachyos.txt")
 
 ANSI_PATTERN = re.compile(r"\x1b\[[0-9;]*m")
 
-WHITE = "\x1b[97m"
-GRAY = "\x1b[90m"
+WHITE = "\x1b[38;2;240;240;245m"
+GRAY = "\x1b[38;2;140;142;150m"
 BLACK = "\x1b[30m"
 INK = "\x1b[97m"
 BANNER = "\x1b[30;47m"
@@ -63,7 +63,7 @@ def crest_frames():
     """
     model = gen_hero.build_model(gen_hero.read_art("ascii-art.txt"))
     return [
-        gen_hero.render_frame(model, (index / ROTATION_FRAMES) * 2.0 * math.pi)
+        gen_hero.render_frame_plain(model, (index / ROTATION_FRAMES) * 2.0 * math.pi)
         for index in range(ROTATION_FRAMES)
     ]
 
@@ -255,8 +255,8 @@ def cve_screen(terminal):
         ("GHSA-2v56-66jc-m922", "Pending", "HIGH"),
         ("GHSA-25rf-g95j-5c8q", "Pending", "HIGH"),
         ("GHSA-5gf4-53wc-3fgw", "Pending", "HIGH"),
-        ("GHSA-q5j5-qp67-65vf", "Pending", "HIGH"),
-        ("GHSA-rmm7-wqw2-jwc6", "Pending", "HIGH"),
+        ("GHSA-q5j5-qp67-65vf", "Instatic", "HIGH"),
+        ("GHSA-rmm7-wqw2-jwc6", "Instatic", "HIGH"),
     ]
     
     row = 5
@@ -304,4 +304,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

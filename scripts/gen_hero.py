@@ -17,8 +17,13 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#9E9E9E"
-LIGHT_PURPLE = "#EEEEEE"
+DARK_BG_LOW = (30, 30, 30)       # darkest shade on dark theme
+DARK_BG_MID = (140, 140, 140)    # midtone on dark theme
+DARK_BG_HIGH = (235, 235, 235)   # brightest shade on dark theme
+
+LIGHT_BG_LOW = (80, 80, 80)      # darkest shade on light theme
+LIGHT_BG_MID = (160, 160, 160)   # midtone on light theme
+LIGHT_BG_HIGH = (245, 245, 245)  # brightest shade on light theme
 
 FRAME_COUNT = 60
 LOOP_SECONDS = 6.0
@@ -39,9 +44,11 @@ FONT_SIZE = 10.0
 CHAR_WIDTH = 6.0
 LINE_HEIGHT = 10.0
 TICKER_MESSAGES = [
+    "AD pentester",
     "security researcher",
     "vulnerability hunter",
-    "chasing CVEs one bug at a time · white hat",
+    "chasing CVEs one bug at a time",
+    "white hat",
     "open source",
 ]
 
@@ -162,6 +169,8 @@ def render_frame(model, angle):
         z' = -x*sin + z*cos
     Shading is ambient + Lambert diffuse + Blinn-Phong specular, and the final
     luminance in 0..1 indexes RAMP from darkest to brightest.
+
+    Returns a list of rows, each row is a list of (glyph, luminance) tuples.
     """
     points, scale, rows, y_unit = model
     cos_a = math.cos(angle)
@@ -199,15 +208,123 @@ def render_frame(model, angle):
         for col in range(COLUMNS):
             index = row * COLUMNS + col
             if not filled[index]:
-                line.append(" ")
+                line.append((" ", 0.0))
                 continue
             ramp_index = min(len(RAMP) - 1, int(luminance[index] * len(RAMP)))
-            line.append(RAMP[ramp_index])
-        output.append("".join(line).rstrip())
+            line.append((RAMP[ramp_index], luminance[index]))
+        output.append(line)
     return output
 
 
+def render_frame_plain(model, angle):
+    """Render a frame as plain text lines (used by gen_terminal.py for the GIF)."""
+    frame = render_frame(model, angle)
+    return ["".join(glyph for glyph, _ in row).rstrip() for row in frame]
+
+
+def _lerp_channel(a, b, t):
+    """Linearly interpolate a single colour channel."""
+    return int(a + (b - a) * t + 0.5)
+
+
+def _luminance_to_rgb(t, low, mid, high):
+    """Map a 0..1 luminance through a three-stop gradient: low → mid → high.
+
+    Uses quadratic easing so that the extremes (darkest / brightest) pop and
+    the midtones blend smoothly.
+    """
+    t = max(0.0, min(1.0, t))
+    if t < 0.5:
+        s = t * 2.0
+        s = s * s  # ease-in: spend more time in the dark end
+        return (
+            _lerp_channel(low[0], mid[0], s),
+            _lerp_channel(low[1], mid[1], s),
+            _lerp_channel(low[2], mid[2], s),
+        )
+    else:
+        s = (t - 0.5) * 2.0
+        s = 1.0 - (1.0 - s) * (1.0 - s)  # ease-out: rush toward bright
+        return (
+            _lerp_channel(mid[0], high[0], s),
+            _lerp_channel(mid[1], high[1], s),
+            _lerp_channel(mid[2], high[2], s),
+        )
+
+
+def _rgb_hex(r, g, b):
+    return "#%02x%02x%02x" % (r, g, b)
+
+
+def gradient_text_rows(frame, palette, y_offset=0.0):
+    """Build SVG text rows with per-character gradient colouring.
+
+    Each character receives a fill colour derived from its 3D luminance value,
+    mapped through the three-stop palette (low → mid → high). Runs of adjacent
+    characters with the same colour are merged into a single <tspan> to keep
+    the SVG size from exploding.
+    """
+    low, mid, high = palette
+    parts = []
+    for row, cells in enumerate(frame):
+        # strip trailing spaces
+        last_filled = -1
+        for col in range(len(cells) - 1, -1, -1):
+            if cells[col][0] != " ":
+                last_filled = col
+                break
+        if last_filled < 0:
+            continue
+
+        y = y_offset + (row + 1) * LINE_HEIGHT
+
+        # Group runs of identical colour
+        runs = []
+        current_colour = None
+        current_chars = []
+        for col in range(last_filled + 1):
+            glyph, lum = cells[col]
+            if glyph == " ":
+                colour = None  # spaces inherit; no fill override needed
+            else:
+                r, g, b = _luminance_to_rgb(lum, low, mid, high)
+                colour = _rgb_hex(r, g, b)
+
+            if colour != current_colour and current_chars:
+                runs.append((current_colour, "".join(current_chars)))
+                current_chars = []
+            current_colour = colour
+            current_chars.append(glyph)
+        if current_chars:
+            runs.append((current_colour, "".join(current_chars)))
+
+        # Emit tspans: first run sets x/y, subsequent runs continue inline
+        if len(runs) == 1 and runs[0][0] is not None:
+            col_hex, text = runs[0]
+            w = len(text) * CHAR_WIDTH
+            parts.append(
+                '<tspan x="0" y="%g" textLength="%g" fill="%s">%s</tspan>'
+                % (y, w, col_hex, escape(text))
+            )
+        else:
+            # Multiple runs – use nested tspans
+            inner = []
+            for col_hex, text in runs:
+                if col_hex is not None:
+                    inner.append('<tspan fill="%s">%s</tspan>' % (col_hex, escape(text)))
+                else:
+                    inner.append(escape(text))
+            total_width = sum(len(t) for _, t in runs) * CHAR_WIDTH
+            parts.append(
+                '<tspan x="0" y="%g" textLength="%g">%s</tspan>'
+                % (y, total_width, "".join(inner))
+            )
+
+    return "".join(parts)
+
+
 def text_rows(lines, y_offset=0.0):
+    """Original plain-text text_rows for the wordmark (no gradient needed)."""
     spans = []
     for row, line in enumerate(lines):
         if not line:
@@ -220,7 +337,7 @@ def text_rows(lines, y_offset=0.0):
     return "".join(spans)
 
 
-def svg_open(width, height, colour):
+def svg_open(width, height, colour="#000"):
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" '
         'role="img" font-family="%s" font-size="%.1f" fill="%s">'
@@ -228,7 +345,14 @@ def svg_open(width, height, colour):
     )
 
 
-def build_spinner(model, colour, title):
+def build_spinner(model, palette, title):
+    """Build the animated spinning hero SVG with per-character gradient shading.
+
+    Each glyph receives a fill colour interpolated from the palette's three
+    stops (low → mid → high) based on its 3D shading luminance, so the
+    output shows a continuous black → grey → white gradient rather than
+    a single flat colour.
+    """
     points, scale, rows, y_unit = model
     width = math.ceil(COLUMNS * CHAR_WIDTH)
     height = rows * LINE_HEIGHT
@@ -243,13 +367,14 @@ def build_spinner(model, colour, title):
         "</style>" % (LOOP_SECONDS, step_percent)
     )
 
-    parts = [svg_open(width, height, colour), "<title>%s</title>" % escape(title), style]
+    parts = [svg_open(width, height), "<title>%s</title>" % escape(title), style]
     for index in range(FRAME_COUNT):
         angle = (index / FRAME_COUNT) * 2.0 * math.pi
         delay = -((FRAME_COUNT - index) * frame_seconds)
+        frame = render_frame(model, angle)
         parts.append(
             '<g class="f f%d" style="animation-delay:%.2fs"><text xml:space="preserve">%s</text></g>'
-            % (index, delay, text_rows(render_frame(model, angle)))
+            % (index, delay, gradient_text_rows(frame, palette))
         )
     parts.append("</svg>")
     return "".join(parts)
@@ -350,31 +475,46 @@ def wordmark_style(columns, width):
     )
 
 
-def build_wordmark(lines, colour, title):
-    """Draw the wordmark as rectangles rather than <text>.
+def build_wordmark(lines, palette, title):
+    """Draw the wordmark as rectangles with a horizontal gradient fill.
 
     The art is built from U+2550-U+2588 box and block glyphs, which the
     monospace fonts in FONT_STACK do not contain. Rendered as text inside an
     <img>, browsers fall back to a proportional font and the art collapses, so
     the eight glyphs are emitted as vector geometry instead.
+
+    A three-stop linearGradient (low → mid → high) sweeps left-to-right so the
+    wordmark shimmers from dark to bright, matching the hero spinner's gradient
+    style.
     """
+    low, mid, high = palette
     columns = max(len(line) for line in lines)
     width = math.ceil(columns * CHAR_WIDTH)
     height = math.ceil(len(lines) * LINE_HEIGHT)
     shapes = "".join(
         '<rect x="%g" y="%g" width="%g" height="%g"/>' % rect for rect in wordmark_rects(lines)
     )
+    gradient_defs = (
+        "<defs>"
+        '<linearGradient id="wg" x1="0%%" y1="0%%" x2="100%%" y2="0%%">'
+        '<stop offset="0%%" stop-color="%s"/>'
+        '<stop offset="50%%" stop-color="%s"/>'
+        '<stop offset="100%%" stop-color="%s"/>'
+        "</linearGradient>"
+        "</defs>"
+        % (_rgb_hex(*low), _rgb_hex(*mid), _rgb_hex(*high))
+    )
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" '
-        'role="img" fill="%s"><title>%s</title>%s<g class="w">%s</g>'
+        'role="img" fill="url(#wg)"><title>%s</title>%s%s<g class="w">%s</g>'
         '<rect class="c" x="0" y="0" width="%g" height="%d"/></svg>'
         % (
             width,
             height,
             width,
             height,
-            colour,
             escape(title),
+            gradient_defs,
             wordmark_style(columns, width),
             shapes,
             CHAR_WIDTH,
@@ -488,10 +628,13 @@ def main():
     model = build_model(read_art("ascii-art.txt"))
     wordmark = read_art("uziii2208.txt")
 
-    write("hero-dark.svg", build_spinner(model, DARK_PURPLE, "uziii2208 logo, rotating"))
-    write("hero-light.svg", build_spinner(model, LIGHT_PURPLE, "uziii2208 logo, rotating"))
-    write("wordmark-dark.svg", build_wordmark(wordmark, DARK_PURPLE, "uziii2208"))
-    write("wordmark-light.svg", build_wordmark(wordmark, LIGHT_PURPLE, "uziii2208"))
+    dark_palette = (DARK_BG_LOW, DARK_BG_MID, DARK_BG_HIGH)
+    light_palette = (LIGHT_BG_LOW, LIGHT_BG_MID, LIGHT_BG_HIGH)
+
+    write("hero-dark.svg", build_spinner(model, dark_palette, "uziii2208 logo, rotating"))
+    write("hero-light.svg", build_spinner(model, light_palette, "uziii2208 logo, rotating"))
+    write("wordmark-dark.svg", build_wordmark(wordmark, dark_palette, "uziii2208"))
+    write("wordmark-light.svg", build_wordmark(wordmark, light_palette, "uziii2208"))
     write("ticker.svg", build_ticker(TICKER_MESSAGES, "status ticker"))
 
 
