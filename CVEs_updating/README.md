@@ -48,4 +48,5 @@
 
 > [!IMPORTANT]
 > I just hunt bugs for fun, honestly. But if you're curious how I find them, feel free to hop into my Discord - way easier to chat there: [HowToPwn Discord](https://discord.gg/YSUdcmdCJG)
+>
 > **Thanks for reading**
