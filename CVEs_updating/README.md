@@ -1,3 +1,5 @@
+**Total:** <!-- TOTAL_START -->41<!-- TOTAL_END --> | **Critical:** <!-- CRITICAL_START -->26<!-- CRITICAL_END --> | **High:** <!-- HIGH_START -->15<!-- HIGH_END --> | **Medium:** <!-- MEDIUM_START -->0<!-- MEDIUM_END --> | **Low:** <!-- LOW_START -->0<!-- LOW_END -->
+
 | Advisory / CVE | Product | Weakness | Severity | Status |
 |---|---|---|---|---|
 | [GHSA-fc85-99vc-9c75](https://github.com/knowns-dev/knowns/security/advisories/GHSA-fc85-99vc-9c75) | Knowns | CWE-284 · CWE-306 · CWE-1188 | ![Critical](https://img.shields.io/badge/-CRITICAL-ff0000?style=flat-square) | Published · CVE Request Accepted |
