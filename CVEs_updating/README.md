@@ -43,3 +43,9 @@
 | [GHSA-5gf4-53wc-3fgw](https://github.com/sensored/sensored/security/advisories/GHSA-5gf4-53wc-3fgw) | Pending | CWE-20 · CWE-125 | ![High](https://img.shields.io/badge/-HIGH-ff6666?style=flat-square) | Triage |
 | [GHSA-q5j5-qp67-65vf](https://github.com/CoreBunch/Instatic/security/advisories/GHSA-q5j5-qp67-65vf) | Instatic | CWE-200 · CWE-863 | ![High](https://img.shields.io/badge/-HIGH-ff6666?style=flat-square) | Draft |
 | [GHSA-rmm7-wqw2-jwc6](https://github.com/CoreBunch/Instatic/security/advisories/GHSA-rmm7-wqw2-jwc6) | Instatic | CWE-441 · CWE-862 · CWE-918 | ![High](https://img.shields.io/badge/-HIGH-ff6666?style=flat-square) | Draft |
+
+---
+
+> [!IMPORTANT]
+> I just hunt bugs for fun, honestly. But if you're curious how I find them, feel free to hop into my Discord - way easier to chat there: [HowToPwn Discord](https://discord.gg/YSUdcmdCJG)
+> **Thanks for reading**
