@@ -1,4 +1,4 @@
-**Total:** <!-- TOTAL_START -->41<!-- TOTAL_END --> | **Critical:** <!-- CRITICAL_START -->26<!-- CRITICAL_END --> | **High:** <!-- HIGH_START -->15<!-- HIGH_END --> | **Medium:** <!-- MEDIUM_START -->0<!-- MEDIUM_END --> | **Low:** <!-- LOW_START -->0<!-- LOW_END -->
+**Total:** <!-- TOTAL_START -->33<!-- TOTAL_END --> | **Critical:** <!-- CRITICAL_START -->23<!-- CRITICAL_END --> | **High:** <!-- HIGH_START -->10<!-- HIGH_END --> | **Medium:** <!-- MEDIUM_START -->0<!-- MEDIUM_END --> | **Low:** <!-- LOW_START -->0<!-- LOW_END -->
 
 | Advisory / CVE | Product | Weakness | Severity | Status |
 |---|---|---|---|---|
